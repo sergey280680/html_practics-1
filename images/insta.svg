@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 33" width="33" height="33">
+	<defs>
+		<image width="12" height="13" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAANBAMAAABvB5JxAAAAAXNSR0IB2cksfwAAAC1QTFRFAAAAMDg7MDg7MDg7MDg7MDg7MDg7MDg7MDg7MDg7MDg7MDg7MDg7MDg7MDg77qSmrwAAAA90Uk5TACIz3Yh3RMy7mf/uEVVmnuuJBwAAAFxJREFUeJxjYBAEAgYGZdfQ0BAzhkIGBobgdIYGBkaBWRoMDUyWkxM4GHZ0C/BYdDM0XGFgiONgaHgKoY4zMNQAKb7a6w84GAwYjsYwsDNMAWpn8GRgtd69e3MAAF1EFT/RALjvAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #bbbbbb;stroke: #30383b } 
+	</style>
+	<g id="message">
+		<path id="BG" class="shp0" d="M17 2C25.28 2 32 8.72 32 17C32 25.28 25.28 32 17 32C8.72 32 2 25.28 2 17C2 8.72 8.72 2 17 2Z" />
+		<use id="fb icon" href="#img1" x="11" y="11" />
+	</g>
+</svg>

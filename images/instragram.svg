@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #bbbbbb;stroke: #30383b } 
+		.txt1 { font-size: 12px;line-height: 25px;fill: #30383b;font-family: "themify";text-anchor: middle } 
+	</style>
+	<g id="instragram">
+		<path id="BG" class="shp0" d="M15 0C23.28 0 30 6.72 30 15C30 23.28 23.28 30 15 30C6.72 30 0 23.28 0 15C0 6.72 6.72 0 15 0Z" />
+		<text id="fb icon" style="transform: matrix(1,0,0,1,14.912,20.662)" >
+			<tspan x="0" y="0" class="txt1"></tspan>
+		</text>
+	</g>
+</svg>
