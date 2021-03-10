@@ -53,6 +53,9 @@
             <!-- main section -->
             <section class="main">
                 <div class="container main__container">
+                    <div class="main__bg-image">
+                        <img src="./images/spa-bg.png" alt="spa" />
+                    </div>
                     <p class="main__pre-title">SPA & BEAUTY CENTER</p>
                     <h1 class="main__title">
                         Beauty and success <br />
@@ -102,6 +105,16 @@
                             src="./images/massage.jpg"
                             alt="massage"
                         />
+                        <a class="gallery__bg" href="#">
+                            <div class="gallery__bg-content">
+                                <img
+                                    class="gallery__bg-icon"
+                                    src="./images/bowl.png"
+                                    alt="bowl"
+                                />
+                                <p class="gallery__bg-text">Body Treatment</p>
+                            </div>
+                        </a>
                     </li>
                     <li class="gallery__list-item">
                         <img
@@ -109,6 +122,16 @@
                             src="./images/massage_stone.jpg"
                             alt="massage_stone"
                         />
+                        <a class="gallery__bg" href="#">
+                            <div class="gallery__bg-content">
+                                <img
+                                    class="gallery__bg-icon"
+                                    src="./images/bowl.png"
+                                    alt="bowl"
+                                />
+                                <p class="gallery__bg-text">Body Treatment</p>
+                            </div>
+                        </a>
                     </li>
                     <li class="gallery__list-item">
                         <img
@@ -116,6 +139,16 @@
                             src="./images/epilation.jpg"
                             alt="epilation"
                         />
+                        <a class="gallery__bg" href="#">
+                            <div class="gallery__bg-content">
+                                <img
+                                    class="gallery__bg-icon"
+                                    src="./images/bowl.png"
+                                    alt="bowl"
+                                />
+                                <p class="gallery__bg-text">Body Treatment</p>
+                            </div>
+                        </a>
                     </li>
                     <li class="gallery__list-item">
                         <img
@@ -123,6 +156,16 @@
                             src="./images/face_massage.jpg"
                             alt="face_massage"
                         />
+                        <a class="gallery__bg" href="#">
+                            <div class="gallery__bg-content">
+                                <img
+                                    class="gallery__bg-icon"
+                                    src="./images/bowl.png"
+                                    alt="bowl"
+                                />
+                                <p class="gallery__bg-text">Body Treatment</p>
+                            </div>
+                        </a>
                     </li>
                 </ul>
             </section>
@@ -772,7 +815,7 @@
                 <ul class="footer__icons-list">
                     <li class="footer__icons-list-item">
                         <a href="#">
-                            <svg width="15" height="15">
+                            <svg class="footer__icon" width="15" height="15">
                                 <use
                                     href="./images/svg/sprite.svg#icon-facebook"
                                 ></use>
@@ -781,7 +824,7 @@
                     </li>
                     <li class="footer__icons-list-item">
                         <a href="#">
-                            <svg width="15" height="15">
+                            <svg class="footer__icon" width="15" height="15">
                                 <use
                                     href="./images/svg/sprite.svg#icon-twitter"
                                 ></use>
@@ -790,7 +833,7 @@
                     </li>
                     <li class="footer__icons-list-item">
                         <a href="#">
-                            <svg width="15" height="15">
+                            <svg class="footer__icon" width="15" height="15">
                                 <use
                                     href="./images/svg/sprite.svg#icon-instagram"
                                 ></use>
@@ -799,7 +842,7 @@
                     </li>
                     <li class="footer__icons-list-item">
                         <a href="#">
-                            <svg width="15" height="15">
+                            <svg class="footer__icon" width="15" height="15">
                                 <use
                                     href="./images/svg/sprite.svg#icon-vimeo"
                                 ></use>
@@ -808,9 +851,10 @@
                     </li>
                 </ul>
 
-                <p>
-                    &copy; COPYRIGHT 2019 <a href="#">themeies.com</a> ALL
-                    RIGHTS RESERVED.
+                <p class="footer__copyright">
+                    &copy; COPYRIGHT 2019
+                    <a class="footer__copyright-link" href="#">themeies.com</a>
+                    ALL RIGHTS RESERVED.
                 </p>
             </div>
         </footer>
